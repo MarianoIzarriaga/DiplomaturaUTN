@@ -52,3 +52,8 @@ p {
     margin: 0 0 10px 0;
     text-align: center;
 }
+.containerSeries, .containerPelis {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

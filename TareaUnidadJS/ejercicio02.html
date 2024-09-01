@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Número Mayor</title>
+</head>
+<body>
+    <script>
+        let numeros = [11, 45, 104, 67, 97];
+
+        let mayor = numeros[0];
+
+
+        for (let i = 1; i < numeros.length; i++) {
+            if (numeros[i] > mayor) {
+                mayor = numeros[i];
+            }
+        }
+
+        document.write("El número mayor es: " + mayor);
+    </script>
+</body>
+</html>

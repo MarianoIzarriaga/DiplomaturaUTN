@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medio de Transporte</title>
+</head>
+<body>
+    <script>
+        let distancia = prompt("Ingrese la distancia en metros:");
+
+        if (distancia <= 1000) {
+            document.write("El medio de transporte es a pie.");
+        } else if (distancia <= 10000) {
+            document.write("El medio de transporte es en bicicleta.");
+        } else if (distancia <= 30000) {
+            document.write("El medio de transporte es en colectivo.");
+        } else if (distancia <= 100000) {
+            document.write("El medio de transporte es en auto.");
+        } else {
+            document.write("El medio de transporte es en avión.");
+        }
+    </script>
+</body>
+</html>

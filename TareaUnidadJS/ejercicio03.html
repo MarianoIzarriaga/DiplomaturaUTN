@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambio de Color</title>
+    <link rel="stylesheet" href="ejercicio03.css">
+</head>
+<body>
+    <div class="cuadrado red"></div>
+    <div class="cuadrado green"></div>
+    <div class="cuadrado blue"></div>
+
+    <script>
+        document.querySelectorAll('.cuadrado').forEach(cuadrado => {
+            square.addEventListener('click', function() {
+                document.body.style.backgroundColor = getComputedStyle(this).backgroundColor;
+            });
+        });
+    </script>
+</body>
+</html>
